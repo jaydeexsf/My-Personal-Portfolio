@@ -460,3 +460,7 @@ footer {
     margin-left: -28vw;
   }
 }
+
+.socials a:hover {
+  transform: translateX(100px);
+}
