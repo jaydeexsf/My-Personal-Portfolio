@@ -456,11 +456,16 @@ footer {
 
 @media (max-width: 1200px) {
   .bio {
-    margin-right: 50px;
+    margin-right: 90px;
     margin-left: -28vw;
   }
 }
 
 .socials a:hover {
-  transform: translateX(100px);
+ /* background-color: #ff7235; */
+ /* border-radius: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center; */
+ transform: scale(1.3);
 }
