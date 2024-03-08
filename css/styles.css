@@ -204,6 +204,11 @@ nav ul li {
   transition: all 1s linear;
 }
 
+.img-p {
+  clip-path: polygon(2% 0, 98% 0, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0 98%, 0 2%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+}
+
 .project-pic:hover {
   transform: scale(1.3);
 }
