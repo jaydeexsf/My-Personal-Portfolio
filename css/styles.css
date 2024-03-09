@@ -338,7 +338,7 @@ nav ul li {
 
 /* Footer section */
 footer {
-  background-color: var(--bg-color);
+  background-color: var(--secondary-shadow);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
@@ -658,3 +658,4 @@ footer {
   margin-top: 20px;
   color: var(--bg-color);
 }
+
