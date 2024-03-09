@@ -147,6 +147,7 @@ nav ul li {
   color: var(--bg-color);
   padding: 30px 60px;
   width: 84%;
+  max-width: 1150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -651,4 +652,9 @@ footer {
   .screen-body-item {
     padding: 0;
   }
+}
+
+#my-form-status {
+  margin-top: 20px;
+  color: var(--bg-color);
 }
