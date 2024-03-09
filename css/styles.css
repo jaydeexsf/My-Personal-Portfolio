@@ -659,3 +659,29 @@ footer {
   color: var(--bg-color);
 }
 
+.stack span {
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: small;
+ 
+}
+
+.project-link {
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.project-link:hover {
+  background-color: transparent;
+  border: 1px solid var(--secondary-shadow);
+}
