@@ -30,4 +30,9 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
+Image.addEventListener("hover", () => {
+  for (let i = 0; )
+  Image.src = 
+})
+
 console.log(window.innerWidth);
