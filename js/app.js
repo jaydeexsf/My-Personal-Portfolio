@@ -46,3 +46,9 @@ Image.addEventListener("onchange", () => {
   Image.src = "screenshot0OfStudentRoomsWebSite"
 })
 console.log(window.innerWidth);
+
+const up_arrow = document.querySelector('up-arrow');
+
+if (window.top = 0) {
+  up_arrow.style.backgroundColor = 'black';
+}
