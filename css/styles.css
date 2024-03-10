@@ -223,7 +223,6 @@ nav ul li {
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
-  color: var(--primary-color);
 }
 
 .project-container {
@@ -685,4 +684,12 @@ footer {
 .project-link:hover {
   background-color: transparent;
   border: 1px solid var(--secondary-shadow);
+}
+
+.skill-header, .projects-title {
+  color: var(--my-fav-color);
+}
+
+.more-about h2, .bio-title {
+  color: var(--secondary-color);
 }

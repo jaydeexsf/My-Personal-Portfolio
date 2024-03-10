@@ -30,9 +30,19 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
-Image.addEventListener("hover", () => {
-  for (let i = 0; )
-  Image.src = 
-})
+const Image = document.querySelector('.project-pic');
 
+Image.addEventListener("hover", () => {
+  setInterval(() => {
+    for (let i = 0; i < 5 ; i++) {
+      Image.src = `./images/screenshot${i}OfStudentRoomsWebSite.png`;
+      Image.style.transition = "all 2.3s linear";
+      }
+    }), 1000
+  })
+  
+
+Image.addEventListener("onchange", () => {
+  Image.src = "screenshot0OfStudentRoomsWebSite"
+})
 console.log(window.innerWidth);
