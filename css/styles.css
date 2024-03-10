@@ -233,7 +233,7 @@ nav ul li {
 }
 
 .project-container p {
-  padding: 0.4rem;
+  padding: 0.8rem;
 }
 
 .project-title {
@@ -361,6 +361,7 @@ footer {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  height: 450px;
 }
 
 /* Media queries for responsiveness */
