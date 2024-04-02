@@ -45,10 +45,14 @@ Image.addEventListener("hover", () => {
 Image.addEventListener("onchange", () => {
   Image.src = "screenshot0OfStudentRoomsWebSite"
 })
-console.log(window.innerWidth);
+console.log(window.top);
 
 const up_arrow = document.querySelector('up-arrow');
 
 if (window.top = 0) {
   up_arrow.style.backgroundColor = 'black';
+}
+
+if(nav = 2) {
+  let ferry = document.getElementById('theferry');
 }

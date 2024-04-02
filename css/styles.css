@@ -429,7 +429,11 @@ footer {
     margin-top: -7rem;
     width: 20.5rem;
     /* margin-right: 250px;
-    margin-left: -350px; */
+    margin-left: -350px; *
+    */
+    position: absolute;
+    top: 350px;
+    left: 240px;
   }
 
   .more-about {
