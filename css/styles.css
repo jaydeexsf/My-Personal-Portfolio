@@ -113,6 +113,7 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  margin-right: 60px;
 }
 
 .hero img {
@@ -318,7 +319,7 @@ nav ul li {
 
 @media (max-width: 600px) {
   .socials {
-    right: 6%;
+    left: 1%;
   }
 }
 
