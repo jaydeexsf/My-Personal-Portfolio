@@ -51,6 +51,8 @@ if (window.top = 0) {
   up_arrow.style.backgroundColor = 'black';
 }
 
-if(nav = 2) {
-  let ferry = document.getElementById('theferry');
-}
+// if(nav = 2) {
+//   let ferry = document.getElementById('theferry');
+// }
+
+console.log(innerWidth);

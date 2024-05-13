@@ -316,6 +316,12 @@ nav ul li {
   bottom: 50%;
 }
 
+@media (max-width: 600px) {
+  .socials {
+    right: 3%;
+  }
+}
+
 .socicon {
   width: 2rem;
   height: 2rem;
