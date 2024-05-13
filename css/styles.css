@@ -71,6 +71,7 @@ nav {
   padding: 1.5rem 3.5rem;
   background-color: var(--my-fav-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 nav h1 {
